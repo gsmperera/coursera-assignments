@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+    
+body {
+    width: 96%;
+    margin: 0 auto;
+    min-height: 100vh;
+    color: #555;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.75em;
+    padding: 5%;
+    border: none;
+}
+section {
+    position: relative;
+    float: left;
+    background-color: #eee;
+    margin: 1%;
+    border: 1px solid black;
+}
+section h2 {
+    font-size: 1.25em;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 5px 10px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+
+}
+#chickenTitle h2 {
+    color: cornsilk;
+    background-color: goldenrod;
+}
+#beefTitle h2 {
+    color: cornsilk;
+    background-color: coral;
+}
+#sushiTitle h2 {
+    color: cornsilk;
+    background-color: darkcyan;
+}
+section p {
+    margin: 45px 10px 20px 10px;
+    text-align: justify;
+}
+.row {
+    width: 100%;
+}
+@media (min-width:992px) {
+    .col-lg-4 {
+        width: 31.33%;
+    }
+}
+@media (max-width:991px) and (min-width:768px) {
+    .col-md-6 {
+        width: 48%;
+    }
+    .col-md-12 {
+        width: 98%;
+    }
+}
+@media (max-width:767px) {
+    .col-sm-12 {
+        width: 98%;
+    }
+}
